@@ -40,13 +40,11 @@ Set up project repo, Fix checkout bug, Design login screen, Write API docs, Plan
 - **Theme toggle:** light/dark, saved in `localStorage` and applied before first paint. Defaults to the system preference.
 - **Accessibility:** real `<button>` elements, labels on all inputs, visible focus ring, `aria-live` counter, `role="alert"` on errors.
 
-## Not done
-
-- Live deployment. To deploy, import the repo on Vercel or Netlify (build command `npm run build`, output directory `dist`), then add the link here.
-
 ## Assumptions
 
 - "Overdue" compares the due date with today's local date; a task due today is not overdue.
 - Clicking away from an edit field cancels the edit.
 - "Added order" is the default sort; it keeps the stored order.
 - Time spent: add your own estimate here.
+
+## Deployed Link - https://hyperapps-task-manager.vercel.app/
